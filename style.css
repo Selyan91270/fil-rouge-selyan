@@ -1,0 +1,63 @@
+body {
+       background-color: rgb(2, 32, 44);
+       color: white;
+}
+
+
+h4 {
+       font-style: left;
+       text-align: left;
+       text-transform: none;
+}
+header, nav{
+
+       display: flex;
+       text-align: row ;
+       justify-content: space-between;
+       align-items: center;
+       flex-basis: 8%;
+}
+.fa-facebook, .fa-instagram, .fa-linkedin {
+       color: white;
+}
+
+span {
+ color: rgb(20, 223, 162);
+}
+
+
+main,article {
+       margin: 0 100px ;      
+}
+
+.about p {
+       color: grey;
+       font-size: 0.8em;
+       font-weight: 100;
+       width: 475px;
+       padding-top: 25px;
+       margin: 0 100px ;
+
+}
+
+
+nav {
+       margin-left: -3%;
+       font-family: "Montserrat", sans-serif;
+       display: flex;
+       justify-content: space-evenly;
+   }
+   
+   nav li {
+       display: inline-block; /* permet de mettre en ligne tout en gardant des "propriétées" de bloc*/
+       padding: 10px 20px; /* 10px = en haut et en bas 20px = a gauche et a droite*/
+       transition: transform 1.2s ease;
+   }
+   
+   .cat li:hover {
+       transform: scale(1.10);
+       background-color: #10cf94; 
+       color: white; 
+       padding: 4px 12px; 
+   }
+
